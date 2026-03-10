@@ -8,6 +8,10 @@ This script fine-tunes `google/gemma-3-4b-it` for Visual Question Answering (VQA
 *   **Performance**: Uses `flash_attention_2`.
 *   **Data**: Custom collate function for multi-modal inputs.
 
+*   From Huggingface discussion forum and the Gemma authors
+
+*   <img width="1274" height="492" alt="image" src="https://github.com/user-attachments/assets/032ec48b-3cb4-43ae-8f41-e3b023978aba" />
+
 ## Dataset
 
 Uses `dutta18/multi-domain-VQA-12K` dataset.
