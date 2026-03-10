@@ -10,7 +10,7 @@ This script fine-tunes `google/gemma-3-4b-it` for Visual Question Answering (VQA
 
 ## Dataset
 
-Uses `dutta18/multi-domain-VQA-12K` (physical reasoning) and custom Chain-of-Thought (CoT) data.
+Uses `dutta18/multi-domain-VQA-12K` dataset.
 
 ## Usage
 
