@@ -24,10 +24,14 @@ Uses `dutta18/multi-domain-VQA-12K` (physical reasoning) and custom Chain-of-Tho
 
 ## Note
 
-This performs full fine-tuning and requires significant GPU memory. I have done the full finetuning on a NVIDIA 80 GB H_100 GPU with a batch size of 4, that took me around 30 mins for 2 epochs. 
+This performs full fine-tuning and requires significant GPU memory. I have done the full finetuning on below hardware:
 
-For consumer GPUs, consider adapting for LoRA.
+NVIDIA 80 GB H_100 GPU with a batch size of 4, that took me around 30 mins for 2 epochs. 
+
+NVIDIA A40 46 GB GPU with batch size of 2 with gradient accumulation of 2, that took me around 45 mins.
+
+For consumer GPUs, consider using for LoRA or QLORA.
 
 UPDATE: I have also added the batched inference code with some performance metrics.
 
--> Star the Repo if you found this useful.
+Please ★ Star the Repo if you found this useful.
